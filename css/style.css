@@ -1,0 +1,58 @@
+/******* Common CSS Start ********/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/******* Common CSS End ********/
+
+/******* Header Start ********/
+
+header {
+  padding: 12px 0;
+  background-color: #f0fff0;
+}
+.nav_custom {
+}
+.logo_custom {
+  width: 195px;
+}
+.menu_item_custom {
+  padding: 0 25px !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  transition: 0.3s;
+  line-height: 24px;
+}
+.menu_item_custom:hover {
+  color: #fd511a;
+  transition: 0.3s;
+}
+.menu_button {
+  margin-left: 10px;
+  padding: 12px 28px;
+}
+.menu_button,
+.common_button {
+  background-color: #21b573;
+  border-radius: 33px;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.menu_button:hover,
+.common_button:hover {
+  background-color: #fd511a;
+  color: white;
+  transition: 0.5s;
+}
+
+/******* Header End ********/
